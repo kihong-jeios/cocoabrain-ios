@@ -9,8 +9,8 @@ import UIKit
 import Alamofire
 
 enum EndpointURI: String {
-    case dev = "http://dev.cocoabrain.net/coghealthtest/"
-    case prod = "https://cocoabrain.net/coghealthtest/"
+    case dev = "http://dev.cocoabrain.net/coghealthtest"
+    case prod = "https://cocoabrain.net/coghealthtest"
 }
 
 protocol Endpoint {

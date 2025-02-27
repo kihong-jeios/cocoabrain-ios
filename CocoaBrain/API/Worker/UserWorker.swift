@@ -12,7 +12,7 @@ class UserWorker: NSObject {
     var endpoint: UserEndPoints
     init(type: UserEndPoints) {
         switch type {
-        case .getUser(userId: let userId, params: let params):
+        case .getUser(userId: _, params: let params):
             self.endpoint = UserEndPoints.getUsers(params: params)
         case .updateUser(userId: let userId, params: let params):
             self.endpoint = UserEndPoints.updateUser(userId: userId, params: params)
@@ -26,5 +26,12 @@ class UserWorker: NSObject {
             self.endpoint = UserEndPoints.getMembers(params: params)
         }
     }
-    
+ 
+    var request: DataRequest {
+        return AF.request(self.endpoint.fullURL,
+                          method: self.endpoint.method,
+                          parameters: self.endpoint.body,
+                          encoding: self.endpoint.encoding,
+                          headers: self.endpoint.headers)
+    }
 }

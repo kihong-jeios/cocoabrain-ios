@@ -32,72 +32,72 @@ extension InspectEndpoints: Endpoint {
 
     var path: String {
         switch self {
-        case .postTmtBw(params: let params):
+        case .postTmtBw(params: _):
             return "/api/v1/inspect/tmt-bw"
-        case .getTmtBW(inspectId: let inspectId, params: let params):
+        case .getTmtBW(inspectId: let inspectId, params: _):
             return "/api/v1/inspect/tmt-bw/\(inspectId)"
-        case .postCdt(params: let params):
+        case .postCdt(params: _):
             return "/api/v1/inspect/cdt"
-        case .postKdsq(params: let params):
+        case .postKdsq(params: _):
             return "/api/v1/inspect/kdsq"
-        case .postAdditionalInfo(params: let params):
+        case .postAdditionalInfo(params: _):
             return "/api/v1/inspect/kdsq/additionalinfo"
-        case .getKdsq(inspectId: let inspectId, params: let params):
+        case .getKdsq(inspectId: let inspectId, params: _):
             return "/api/v1/inspect/kdsq/\(inspectId)"
-        case .getKdsqSurvey(inspectId: let inspectId, params: let params):
+        case .getKdsqSurvey(inspectId: _, params: _):
             return "/api/v1/inspect/kdsq/additionalinfo"
             
-        case .getInspect(params: let params):
+        case .getInspect(params: _):
             return "/api/v1/inspect"
-        case .getInspectUserId(userId: let userId, params: let params):
+        case .getInspectUserId(userId: let userId, params: _):
             return "/api/v1/inspect/\(userId)"
-        case .getInspectLastDate(userId: let userId, params: let params):
+        case .getInspectLastDate(userId: let userId, params: _):
             return "/api/v1/inspect/\(userId)/last-date"
             
-        case .postPmtMemorizeImage(params: let params):
+        case .postPmtMemorizeImage(params: _):
             return "/api/v1/inspect/pmt/memorize/image"
-        case .postPmtMatchingUpload(params: let params):
+        case .postPmtMatchingUpload(params: _):
             return "/api/v1/inspect/pmt/image/matching/upload"
-        case .postPmtComplete(params: let params):
+        case .postPmtComplete(params: _):
             return "/api/v1/inspect/pmt/complete"
-        case .getPmtImages(params: let params):
+        case .getPmtImages(params: _):
             return "/api/v1/inspect/pmt/image"
-        case .deletePmtImages(params: let params):
+        case .deletePmtImages(params: _):
             return "/api/v1/inspect/pmt/image"
         }
     }
     
     var method: HTTPMethod {
         switch self {
-        case .postTmtBw(params: let params):
+        case .postTmtBw(params: _):
             return .post
-        case .getTmtBW(inspectId: let inspectId, params: let params):
+        case .getTmtBW(inspectId: _, params: _):
             return .get
-        case .postCdt(params: let params):
+        case .postCdt(params: _):
             return .post
-        case .postKdsq(params: let params):
+        case .postKdsq(params: _):
             return .post
-        case .postAdditionalInfo(params: let params):
+        case .postAdditionalInfo(params: _):
             return .post
-        case .getKdsq(inspectId: let inspectId, params: let params):
+        case .getKdsq(inspectId: _, params: _):
             return .get
-        case .getKdsqSurvey(inspectId: let inspectId, params: let params):
+        case .getKdsqSurvey(inspectId: _, params: _):
             return .get
-        case .getInspect(params: let params):
+        case .getInspect(params: _):
             return .get
-        case .getInspectUserId(userId: let userId, params: let params):
+        case .getInspectUserId(userId: _, params: _):
             return .get
-        case .getInspectLastDate(userId: let userId, params: let params):
+        case .getInspectLastDate(userId: _, params: _):
             return .get
-        case .postPmtMemorizeImage(params: let params):
+        case .postPmtMemorizeImage(params: _):
             return .post
-        case .postPmtMatchingUpload(params: let params):
+        case .postPmtMatchingUpload(params: _):
             return .post
-        case .postPmtComplete(params: let params):
+        case .postPmtComplete(params: _):
             return .post
-        case .getPmtImages(params: let params):
+        case .getPmtImages(params: _):
             return .get
-        case .deletePmtImages(params: let params):
+        case .deletePmtImages(params: _):
             return .delete
         }
     }
@@ -107,7 +107,7 @@ extension InspectEndpoints: Endpoint {
         switch self {
         case .postTmtBw(params: let params):
             body = params
-        case .getTmtBW(inspectId: let inspectId, params: let params):
+        case .getTmtBW(inspectId: _, params: let params):
             body = params
         case .postCdt(params: let params):
             body = params
@@ -115,15 +115,15 @@ extension InspectEndpoints: Endpoint {
             body = params
         case .postAdditionalInfo(params: let params):
             body = params
-        case .getKdsq(inspectId: let inspectId, params: let params):
+        case .getKdsq(inspectId: _, params: let params):
             body = params
-        case .getKdsqSurvey(inspectId: let inspectId, params: let params):
+        case .getKdsqSurvey(inspectId: _, params: let params):
             body = params
         case .getInspect(params: let params):
             body = params
-        case .getInspectUserId(userId: let userId, params: let params):
+        case .getInspectUserId(userId: _, params: let params):
             body = params
-        case .getInspectLastDate(userId: let userId, params: let params):
+        case .getInspectLastDate(userId: _, params: let params):
             body = params
         case .postPmtMemorizeImage(params: let params):
             body = params

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class InspectWorker: NSObject {
     var endpoint: InspectEndpoints
@@ -44,4 +45,11 @@ class InspectWorker: NSObject {
         }
     }
 
+    var request: DataRequest {
+        return AF.request(self.endpoint.fullURL,
+                          method: self.endpoint.method,
+                          parameters: self.endpoint.body,
+                          encoding: self.endpoint.encoding,
+                          headers: self.endpoint.headers)
+    }
 }

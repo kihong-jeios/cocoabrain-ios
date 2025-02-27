@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class AdminWorker: NSObject {
     var endpoint: AdminEndPoints
@@ -19,12 +20,20 @@ class AdminWorker: NSObject {
             self.endpoint = AdminEndPoints.patchAdminAccount(adminId: adminId, params: params)
         case .getMyInformation(centerId: let centerId, params: let params):
             self.endpoint = AdminEndPoints.getMyInformation(centerId: centerId, params: params)
-        case .getAllCenters(params: let params):
-            self.endpoint = AdminEndPoints.getAllCenters(params: params)
-        case .postCenter(params: let params):
-            self.endpoint = AdminEndPoints.postCenter(params: params)
         case .postSpeechtext(params: let params):
             self.endpoint = AdminEndPoints.postSpeechtext(params: params)
+        case .login(params: let params):
+            self.endpoint = AdminEndPoints.login(params: params)
+        case .refresh(params: let params):
+            self.endpoint = AdminEndPoints.refresh(params: params)
         }
+    }
+    
+    var request: DataRequest {
+        return AF.request(self.endpoint.fullURL,
+                          method: self.endpoint.method,
+                          parameters: self.endpoint.body,
+                          encoding: self.endpoint.encoding,
+                          headers: self.endpoint.headers)
     }
 }

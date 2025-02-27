@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class CenterWorker: NSObject {
     var endpoint: CenterEndPoints
@@ -22,5 +23,13 @@ class CenterWorker: NSObject {
         case .postCenter(params: let params):
             self.endpoint = CenterEndPoints.postCenter(params: params)
         }
+    }
+    
+    var request: DataRequest {
+        return AF.request(self.endpoint.fullURL,
+                          method: self.endpoint.method,
+                          parameters: self.endpoint.body,
+                          encoding: self.endpoint.encoding,
+                          headers: self.endpoint.headers)
     }
 }

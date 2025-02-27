@@ -13,46 +13,47 @@ enum AdminEndPoints {
     case putAdminAccount(adminId: String, params: Parameters)
     case patchAdminAccount(adminId: String, params: Parameters)
     case getMyInformation(centerId: String, params: Parameters)
-    case getAllCenters(params: Parameters)
-    case postCenter(params: Parameters)
     case postSpeechtext(params: Parameters)
+    
+    case login(params: Parameters)
+    case refresh(params: Parameters)
 }
 
 extension AdminEndPoints: Endpoint {
     var path: String {
         switch self {
-        case .getAdminAccount(adminId: let adminId, params: let params):
+        case .getAdminAccount(adminId: let adminId, params: _):
             return "/api/v1/admin/accounts/\(adminId)"
-        case .putAdminAccount(adminId: let adminId, params: let params):
+        case .putAdminAccount(adminId: let adminId, params: _):
             return "/api/v1/admin/accounts/\(adminId)"
-        case .patchAdminAccount(adminId: let adminId, params: let params):
+        case .patchAdminAccount(adminId: let adminId, params: _):
             return "/api/v1/admin/accounts/\(adminId)/enable"
-        case .getMyInformation(centerId: let centerId, params: let params):
+        case .getMyInformation(centerId: _, params: _):
             return "/api/v1/admin/accounts/me"
-        case .getAllCenters(params: let params):
-            return "/api/v1/admin/accounts/me"
-        case .postCenter(params: let params):
-            return "/api/v1/admin/accounts/me/members"
-        case .postSpeechtext(params: let params):
+        case .postSpeechtext(params: _):
             return "/api/v1/admin/speech/speechtext"
+        case .login(params: _):
+            return "/api/v1/admin/login"
+        case .refresh(params: _):
+            return "/api/v1/admin/refresh"
         }
     }
     
     var method: HTTPMethod {
         switch self {
-        case .getAdminAccount(adminId: let adminId, params: let params):
+        case .getAdminAccount(adminId: _, params: _):
             return .get
-        case .putAdminAccount(adminId: let adminId, params: let params):
+        case .putAdminAccount(adminId: _, params: _):
             return .put
-        case .patchAdminAccount(adminId: let adminId, params: let params):
+        case .patchAdminAccount(adminId: _, params: _):
             return .patch
-        case .getMyInformation(centerId: let centerId, params: let params):
+        case .getMyInformation(centerId: _, params: _):
             return .get
-        case .getAllCenters(params: let params):
-            return .get
-        case .postCenter(params: let params):
+        case .postSpeechtext(params: _):
             return .post
-        case .postSpeechtext(params: let params):
+        case .login(params: _):
+            return .post
+        case .refresh(params: _):
             return .post
         }
     }
@@ -60,19 +61,19 @@ extension AdminEndPoints: Endpoint {
     var body: Parameters {
         var body: Parameters = Parameters()
         switch self {
-        case .getAdminAccount(adminId: let adminId, params: let params):
+        case .getAdminAccount(adminId: _, params: let params):
             body = params
-        case .putAdminAccount(adminId: let adminId, params: let params):
+        case .putAdminAccount(adminId: _, params: let params):
             body = params
-        case .patchAdminAccount(adminId: let adminId, params: let params):
+        case .patchAdminAccount(adminId: _, params: let params):
             body = params
-        case .getMyInformation(centerId: let centerId, params: let params):
-            body = params
-        case .getAllCenters(params: let params):
-            body = params
-        case .postCenter(params: let params):
+        case .getMyInformation(centerId: _, params: let params):
             body = params
         case .postSpeechtext(params: let params):
+            body = params
+        case .login(params: let params):
+            body = params
+        case .refresh(params: let params):
             body = params
         }
         return body

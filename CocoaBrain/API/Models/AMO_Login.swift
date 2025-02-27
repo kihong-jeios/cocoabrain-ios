@@ -28,6 +28,20 @@ enum CenterType: String {
 }
 
 class AMO_Login: Mappable {
+    var success: Bool = false
+    var message: String = ""
+    var data: AMO_LoginData = AMO_LoginData(JSON: [:])!
+    
+    required init?(map: Map) {}
+    
+    func mapping(map: Map) {
+        success <- map["success"]
+        message <- map["message"]
+        data <- map["data"]
+    }
+}
+
+class AMO_LoginData: Mappable {
     var admin: AMO_Admin = AMO_Admin(JSON: [:])!
     var token: AMO_Token = AMO_Token(JSON: [:])!
     
