@@ -28,6 +28,9 @@ class PrefsManager: NSObject {
         #endif
     }
     
+    var centerName: String = ""
+    var userName: String = ""
+    
     func getAppVersion() -> String { //2.0.4의 형태로 내려줌
         guard let dictionary = Bundle.main.infoDictionary,
             let version = dictionary["CFBundleShortVersionString"] as? String

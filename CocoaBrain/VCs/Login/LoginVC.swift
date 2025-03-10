@@ -78,8 +78,13 @@ class LoginVC: UIViewController {
     lazy var autoLoginLabel: UILabel = {
         let v = UILabel()
         v.text = "자동 로그인"
-        v.textColor = .brainTertiary
         v.font = .textStyleBody3()
+        
+        if UDManager.SI.getIsEnabledAutoLogin() == true {
+            v.textColor = .brainTertiary
+        } else {
+            v.textColor = .brainBorder
+        }
         return v
     }()
     
@@ -87,7 +92,7 @@ class LoginVC: UIViewController {
         let v = UIButton()
         v.setBackgroundImage(UIImage(named: "ico_login_checkbox_unchecked"), for: .normal)
         v.setBackgroundImage(UIImage(named: "ico_login_checkbox"), for: .selected)
-        v.isSelected = false
+        v.isSelected = UDManager.SI.getIsEnabledIdSave()
         v.addTarget(self, action: #selector(idSaveCheckBoxPressed), for: .touchUpInside)
         return v
     }()
@@ -95,8 +100,12 @@ class LoginVC: UIViewController {
     lazy var idSaveLabel: UILabel = {
         let v = UILabel()
         v.text = "아이디(이메일주소) 저장"
-        v.textColor = .brainBorder
         v.font = .textStyleBody3()
+        if UDManager.SI.getIsEnabledIdSave() == true {
+            v.textColor = .brainTertiary
+        } else {
+            v.textColor = .brainBorder
+        }
         return v
     }()
     
@@ -104,7 +113,7 @@ class LoginVC: UIViewController {
         let v = UIButton()
         v.setBackgroundImage(UIImage(named: "ico_login_checkbox_unchecked"), for: .normal)
         v.setBackgroundImage(UIImage(named: "ico_login_checkbox"), for: .selected)
-        v.isSelected = true
+        v.isSelected = UDManager.SI.getIsEnabledAutoLogin()
         v.addTarget(self, action: #selector(autoLoginCheckBoxPressed), for: .touchUpInside)
         return v
     }()
@@ -243,8 +252,10 @@ class LoginVC: UIViewController {
         idSaveCheckBox.isSelected = !idSaveCheckBox.isSelected
         if idSaveCheckBox.isSelected {
             idSaveLabel.textColor = .brainTertiary
+            UDManager.SI.setIsEnabledIdSave(true)
         } else {
             idSaveLabel.textColor = .brainBorder
+            UDManager.SI.setIsEnabledIdSave(false)
         }
     }
     
@@ -252,8 +263,10 @@ class LoginVC: UIViewController {
         autoLoginCheckBox.isSelected = !autoLoginCheckBox.isSelected
         if autoLoginCheckBox.isSelected {
             autoLoginLabel.textColor = .brainTertiary
+            UDManager.SI.setIsEnabledAutoLogin(true)
         } else {
             autoLoginLabel.textColor = .brainBorder
+            UDManager.SI.setIsEnabledAutoLogin(false)
         }
     }
     
@@ -266,6 +279,13 @@ class LoginVC: UIViewController {
 }
 
 extension LoginVC: LoginViewModelDelegate {
+    func presentMainVC() {
+        let mainVC = MainVC()
+        let mainNavi = UINavigationController(rootViewController: mainVC)
+        mainNavi.modalPresentationStyle = .fullScreen
+        present(mainNavi, animated: true)
+    }
+    
     func didUpdateCenters(_ centers: [AMO_CenterList]) {
         for center in centers {
             centerListItems.append(

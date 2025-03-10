@@ -28,4 +28,5 @@ extension UIColor {
     @nonobjc class var brainGraphTMT: UIColor { return UIColor(red: 0.55, green: 0.64, blue:0.97, alpha: 1.00) }
     @nonobjc class var brainGraphGDSQ: UIColor { return UIColor(red: 0.71, green: 0.89, blue:0.58, alpha: 1.00) }
     @nonobjc class var brainGraphPMT: UIColor { return UIColor(red: 0.95, green: 0.68, blue:0.45, alpha: 1.00) }
+    @nonobjc class var brainError: UIColor { return UIColor(red: 0.92, green: 0.20, blue:0.14, alpha: 1.00) }
 }

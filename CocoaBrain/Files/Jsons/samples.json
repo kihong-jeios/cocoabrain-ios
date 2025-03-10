@@ -1,0 +1,2306 @@
+{
+  "2024-10-14-132020": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.516,
+        "y": 0.477,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.557,
+        "y": 0.665,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.694,
+        "y": 0.699,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.284,
+        "y": 0.768,
+        "isWhite": true
+      },
+      {
+        "number": 3.0,
+        "x": 0.59,
+        "y": 0.74,
+        "isWhite": false
+      },
+      {
+        "number": 4.0,
+        "x": 0.462,
+        "y": 0.645,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.451,
+        "y": 0.262,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.452,
+        "y": 0.378,
+        "isWhite": true
+      },
+      {
+        "number": 5.0,
+        "x": 0.359,
+        "y": 0.367,
+        "isWhite": false
+      },
+      {
+        "number": 6.0,
+        "x": 0.96,
+        "y": 0.414,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.655,
+        "y": 0.562,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.558,
+        "y": 0.244,
+        "isWhite": true
+      },
+      {
+        "number": 7.0,
+        "x": 0.715,
+        "y": 0.623,
+        "isWhite": false
+      },
+      {
+        "number": 8.0,
+        "x": 0.648,
+        "y": 0.33,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.801,
+        "y": 0.21,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.798,
+        "y": 0.506,
+        "isWhite": true
+      },
+      {
+        "number": 9.0,
+        "x": 0.813,
+        "y": 0.114,
+        "isWhite": false
+      },
+      {
+        "number": 10.0,
+        "x": 0.692,
+        "y": 0.823,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.819,
+        "y": 0.821,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.441,
+        "y": 0.778,
+        "isWhite": true
+      },
+      {
+        "number": 11.0,
+        "x": 0.511,
+        "y": 0.814,
+        "isWhite": false
+      },
+      {
+        "number": 12.0,
+        "x": 0.355,
+        "y": 0.858,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.2,
+        "y": 0.844,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.318,
+        "y": 0.462,
+        "isWhite": true
+      },
+      {
+        "number": 13.0,
+        "x": 0.416,
+        "y": 0.701,
+        "isWhite": false
+      },
+      {
+        "number": 14.0,
+        "x": 0.048,
+        "y": 0.477,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.202,
+        "y": 0.629,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.163,
+        "y": 0.214,
+        "isWhite": true
+      },
+      {
+        "number": 15.0,
+        "x": 0.057,
+        "y": 0.327,
+        "isWhite": false
+      },
+      {
+        "number": 16.0,
+        "x": 0.246,
+        "y": 0.114,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.219,
+        "y": 0.53,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.317,
+        "y": 0.212,
+        "isWhite": true
+      },
+      {
+        "number": 17.0,
+        "x": 0.376,
+        "y": 0.15,
+        "isWhite": false
+      },
+      {
+        "number": 18.0,
+        "x": 0.595,
+        "y": 0.148,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.661,
+        "y": 0.207,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.915,
+        "y": 0.159,
+        "isWhite": true
+      },
+      {
+        "number": 19.0,
+        "x": 0.687,
+        "y": 0.107,
+        "isWhite": false
+      },
+      {
+        "number": 20.0,
+        "x": 0.743,
+        "y": 0.416,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.832,
+        "y": 0.707,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.896,
+        "y": 0.88,
+        "isWhite": true
+      },
+      {
+        "number": 21.0,
+        "x": 0.951,
+        "y": 0.642,
+        "isWhite": false
+      },
+      {
+        "number": 22.0,
+        "x": 0.502,
+        "y": 0.918,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.112,
+        "y": 0.882,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.103,
+        "y": 0.596,
+        "isWhite": true
+      },
+      {
+        "number": 23.0,
+        "x": 0.054,
+        "y": 0.641,
+        "isWhite": false
+      },
+      {
+        "number": 24.0,
+        "x": 0.189,
+        "y": 0.731,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.165,
+        "y": 0.793,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.101,
+        "y": 0.162,
+        "isWhite": true
+      },
+      {
+        "number": 25.0,
+        "x": 0.053,
+        "y": 0.113,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 48.047802,
+    "comment": "gal tab radius\u003d48 B Type",
+    "height": 2560,
+    "key": "2024-10-14-132020",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-07-170751": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.509429,
+        "y": 0.50755185,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.5466136,
+        "y": 0.6851452,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.6754316,
+        "y": 0.7158506,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.29428953,
+        "y": 0.7772614,
+        "isWhite": true
+      },
+      {
+        "number": 3.0,
+        "x": 0.625,
+        "y": 0.758,
+        "isWhite": false
+      },
+      {
+        "number": 4.0,
+        "x": 0.45498008,
+        "y": 0.66356844,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.4443559,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.485,
+        "y": 0.432,
+        "isWhite": true
+      },
+      {
+        "number": 5.0,
+        "x": 0.36201862,
+        "y": 0.4021577,
+        "isWhite": false
+      },
+      {
+        "number": 6.0,
+        "x": 0.9224435,
+        "y": 0.44614106,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.622,
+        "y": 0.465,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.5426295,
+        "y": 0.28846473,
+        "isWhite": true
+      },
+      {
+        "number": 7.0,
+        "x": 0.6900398,
+        "y": 0.64946055,
+        "isWhite": false
+      },
+      {
+        "number": 8.0,
+        "x": 0.682,
+        "y": 0.334,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.78034526,
+        "y": 0.25775933,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.7697211,
+        "y": 0.5324481,
+        "isWhite": true
+      },
+      {
+        "number": 9.0,
+        "x": 0.7896414,
+        "y": 0.16647303,
+        "isWhite": false
+      },
+      {
+        "number": 10.0,
+        "x": 0.67277557,
+        "y": 0.83203316,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.793,
+        "y": 0.779,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.447,
+        "y": 0.8,
+        "isWhite": true
+      },
+      {
+        "number": 11.0,
+        "x": 0.533,
+        "y": 0.837,
+        "isWhite": false
+      },
+      {
+        "number": 12.0,
+        "x": 0.35139444,
+        "y": 0.8643983,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.21062417,
+        "y": 0.8502904,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.332,
+        "y": 0.507,
+        "isWhite": true
+      },
+      {
+        "number": 13.0,
+        "x": 0.4071713,
+        "y": 0.71668047,
+        "isWhite": false
+      },
+      {
+        "number": 14.0,
+        "x": 0.06985392,
+        "y": 0.5058921,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.216,
+        "y": 0.484,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.226,
+        "y": 0.295,
+        "isWhite": true
+      },
+      {
+        "number": 15.0,
+        "x": 0.06586985,
+        "y": 0.36481327,
+        "isWhite": false
+      },
+      {
+        "number": 16.0,
+        "x": 0.258,
+        "y": 0.161,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.335,
+        "y": 0.279,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.424,
+        "y": 0.221,
+        "isWhite": true
+      },
+      {
+        "number": 17.0,
+        "x": 0.388,
+        "y": 0.165,
+        "isWhite": false
+      },
+      {
+        "number": 18.0,
+        "x": 0.529,
+        "y": 0.162,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.66,
+        "y": 0.219,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.88791496,
+        "y": 0.2079668,
+        "isWhite": true
+      },
+      {
+        "number": 19.0,
+        "x": 0.67675966,
+        "y": 0.15817428,
+        "isWhite": false
+      },
+      {
+        "number": 20.0,
+        "x": 0.7139442,
+        "y": 0.44697094,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.848,
+        "y": 0.545,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.8640106,
+        "y": 0.8884647,
+        "isWhite": true
+      },
+      {
+        "number": 21.0,
+        "x": 0.947,
+        "y": 0.625,
+        "isWhite": false
+      },
+      {
+        "number": 22.0,
+        "x": 0.557,
+        "y": 0.947,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.127,
+        "y": 0.914,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.091,
+        "y": 0.639,
+        "isWhite": true
+      },
+      {
+        "number": 23.0,
+        "x": 0.063,
+        "y": 0.733,
+        "isWhite": false
+      },
+      {
+        "number": 24.0,
+        "x": 0.232,
+        "y": 0.551,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.156,
+        "y": 0.606,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.118990704,
+        "y": 0.20879668,
+        "isWhite": true
+      },
+      {
+        "number": 25.0,
+        "x": 0.075166,
+        "y": 0.16481328,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 48.025,
+    "comment": "3",
+    "height": 2560,
+    "key": "2024-10-07-170751",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-21-171711": {
+    "circles": [
+      {
+        "number": 1,
+        "x": 0.516,
+        "y": 0.477,
+        "isWhite": true
+      },
+      {
+        "number": 2,
+        "x": 0.557,
+        "y": 0.665,
+        "isWhite": true
+      },
+      {
+        "number": 2,
+        "x": 0.694,
+        "y": 0.699,
+        "isWhite": false
+      },
+      {
+        "number": 3,
+        "x": 0.284,
+        "y": 0.768,
+        "isWhite": true
+      },
+      {
+        "number": 3,
+        "x": 0.59,
+        "y": 0.74,
+        "isWhite": false
+      },
+      {
+        "number": 4,
+        "x": 0.462,
+        "y": 0.645,
+        "isWhite": true
+      },
+      {
+        "number": 4,
+        "x": 0.451,
+        "y": 0.262,
+        "isWhite": false
+      },
+      {
+        "number": 5,
+        "x": 0.452,
+        "y": 0.378,
+        "isWhite": true
+      },
+      {
+        "number": 5,
+        "x": 0.359,
+        "y": 0.367,
+        "isWhite": false
+      },
+      {
+        "number": 6,
+        "x": 0.96,
+        "y": 0.414,
+        "isWhite": true
+      },
+      {
+        "number": 6,
+        "x": 0.655,
+        "y": 0.562,
+        "isWhite": false
+      },
+      {
+        "number": 7,
+        "x": 0.558,
+        "y": 0.244,
+        "isWhite": true
+      },
+      {
+        "number": 7,
+        "x": 0.715,
+        "y": 0.623,
+        "isWhite": false
+      },
+      {
+        "number": 8,
+        "x": 0.648,
+        "y": 0.33,
+        "isWhite": true
+      },
+      {
+        "number": 8,
+        "x": 0.801,
+        "y": 0.21,
+        "isWhite": false
+      },
+      {
+        "number": 9,
+        "x": 0.798,
+        "y": 0.506,
+        "isWhite": true
+      },
+      {
+        "number": 9,
+        "x": 0.813,
+        "y": 0.114,
+        "isWhite": false
+      },
+      {
+        "number": 10,
+        "x": 0.692,
+        "y": 0.823,
+        "isWhite": true
+      },
+      {
+        "number": 10,
+        "x": 0.784,
+        "y": 0.8,
+        "isWhite": false
+      },
+      {
+        "number": 11,
+        "x": 0.441,
+        "y": 0.778,
+        "isWhite": true
+      },
+      {
+        "number": 11,
+        "x": 0.511,
+        "y": 0.814,
+        "isWhite": false
+      },
+      {
+        "number": 12,
+        "x": 0.355,
+        "y": 0.858,
+        "isWhite": true
+      },
+      {
+        "number": 12,
+        "x": 0.2,
+        "y": 0.844,
+        "isWhite": false
+      },
+      {
+        "number": 13,
+        "x": 0.318,
+        "y": 0.462,
+        "isWhite": true
+      },
+      {
+        "number": 13,
+        "x": 0.416,
+        "y": 0.701,
+        "isWhite": false
+      },
+      {
+        "number": 14,
+        "x": 0.048,
+        "y": 0.477,
+        "isWhite": true
+      },
+      {
+        "number": 14,
+        "x": 0.202,
+        "y": 0.629,
+        "isWhite": false
+      },
+      {
+        "number": 15,
+        "x": 0.163,
+        "y": 0.214,
+        "isWhite": true
+      },
+      {
+        "number": 15,
+        "x": 0.057,
+        "y": 0.327,
+        "isWhite": false
+      },
+      {
+        "number": 16,
+        "x": 0.246,
+        "y": 0.114,
+        "isWhite": true
+      },
+      {
+        "number": 16,
+        "x": 0.24,
+        "y": 0.511,
+        "isWhite": false
+      },
+      {
+        "number": 17,
+        "x": 0.317,
+        "y": 0.212,
+        "isWhite": true
+      },
+      {
+        "number": 17,
+        "x": 0.376,
+        "y": 0.15,
+        "isWhite": false
+      },
+      {
+        "number": 18,
+        "x": 0.595,
+        "y": 0.148,
+        "isWhite": true
+      },
+      {
+        "number": 18,
+        "x": 0.661,
+        "y": 0.207,
+        "isWhite": false
+      },
+      {
+        "number": 19,
+        "x": 0.915,
+        "y": 0.159,
+        "isWhite": true
+      },
+      {
+        "number": 19,
+        "x": 0.687,
+        "y": 0.107,
+        "isWhite": false
+      },
+      {
+        "number": 20,
+        "x": 0.743,
+        "y": 0.416,
+        "isWhite": true
+      },
+      {
+        "number": 20,
+        "x": 0.832,
+        "y": 0.707,
+        "isWhite": false
+      },
+      {
+        "number": 21,
+        "x": 0.896,
+        "y": 0.88,
+        "isWhite": true
+      },
+      {
+        "number": 21,
+        "x": 0.951,
+        "y": 0.642,
+        "isWhite": false
+      },
+      {
+        "number": 22,
+        "x": 0.502,
+        "y": 0.918,
+        "isWhite": true
+      },
+      {
+        "number": 22,
+        "x": 0.112,
+        "y": 0.882,
+        "isWhite": false
+      },
+      {
+        "number": 23,
+        "x": 0.103,
+        "y": 0.596,
+        "isWhite": true
+      },
+      {
+        "number": 23,
+        "x": 0.054,
+        "y": 0.641,
+        "isWhite": false
+      },
+      {
+        "number": 24,
+        "x": 0.189,
+        "y": 0.731,
+        "isWhite": true
+      },
+      {
+        "number": 24,
+        "x": 0.156,
+        "y": 0.776,
+        "isWhite": false
+      },
+      {
+        "number": 25,
+        "x": 0.101,
+        "y": 0.162,
+        "isWhite": true
+      },
+      {
+        "number": 25,
+        "x": 0.053,
+        "y": 0.113,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 48.047802,
+    "comment": "20241021_Btype",
+    "height": 2560,
+    "key": "2024-10-21-171711",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-07-170741": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.509429,
+        "y": 0.50755185,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.5466136,
+        "y": 0.6851452,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.6754316,
+        "y": 0.7158506,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.29428953,
+        "y": 0.7772614,
+        "isWhite": true
+      },
+      {
+        "number": 3.0,
+        "x": 0.625,
+        "y": 0.758,
+        "isWhite": false
+      },
+      {
+        "number": 4.0,
+        "x": 0.45498008,
+        "y": 0.66356844,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.4443559,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.485,
+        "y": 0.432,
+        "isWhite": true
+      },
+      {
+        "number": 5.0,
+        "x": 0.36201862,
+        "y": 0.4021577,
+        "isWhite": false
+      },
+      {
+        "number": 6.0,
+        "x": 0.9224435,
+        "y": 0.44614106,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.622,
+        "y": 0.465,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.5426295,
+        "y": 0.28846473,
+        "isWhite": true
+      },
+      {
+        "number": 7.0,
+        "x": 0.6900398,
+        "y": 0.64946055,
+        "isWhite": false
+      },
+      {
+        "number": 8.0,
+        "x": 0.682,
+        "y": 0.334,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.78034526,
+        "y": 0.25775933,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.7697211,
+        "y": 0.5324481,
+        "isWhite": true
+      },
+      {
+        "number": 9.0,
+        "x": 0.7896414,
+        "y": 0.16647303,
+        "isWhite": false
+      },
+      {
+        "number": 10.0,
+        "x": 0.67277557,
+        "y": 0.83203316,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.793,
+        "y": 0.779,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.447,
+        "y": 0.8,
+        "isWhite": true
+      },
+      {
+        "number": 11.0,
+        "x": 0.533,
+        "y": 0.837,
+        "isWhite": false
+      },
+      {
+        "number": 12.0,
+        "x": 0.35139444,
+        "y": 0.8643983,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.21062417,
+        "y": 0.8502904,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.332,
+        "y": 0.507,
+        "isWhite": true
+      },
+      {
+        "number": 13.0,
+        "x": 0.4071713,
+        "y": 0.71668047,
+        "isWhite": false
+      },
+      {
+        "number": 14.0,
+        "x": 0.06985392,
+        "y": 0.5058921,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.216,
+        "y": 0.484,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.226,
+        "y": 0.295,
+        "isWhite": true
+      },
+      {
+        "number": 15.0,
+        "x": 0.06586985,
+        "y": 0.36481327,
+        "isWhite": false
+      },
+      {
+        "number": 16.0,
+        "x": 0.258,
+        "y": 0.161,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.335,
+        "y": 0.279,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.424,
+        "y": 0.221,
+        "isWhite": true
+      },
+      {
+        "number": 17.0,
+        "x": 0.388,
+        "y": 0.165,
+        "isWhite": false
+      },
+      {
+        "number": 18.0,
+        "x": 0.529,
+        "y": 0.162,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.66,
+        "y": 0.219,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.88791496,
+        "y": 0.2079668,
+        "isWhite": true
+      },
+      {
+        "number": 19.0,
+        "x": 0.67675966,
+        "y": 0.15817428,
+        "isWhite": false
+      },
+      {
+        "number": 20.0,
+        "x": 0.7139442,
+        "y": 0.44697094,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.848,
+        "y": 0.545,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.8640106,
+        "y": 0.8884647,
+        "isWhite": true
+      },
+      {
+        "number": 21.0,
+        "x": 0.947,
+        "y": 0.625,
+        "isWhite": false
+      },
+      {
+        "number": 22.0,
+        "x": 0.557,
+        "y": 0.947,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.127,
+        "y": 0.914,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.091,
+        "y": 0.639,
+        "isWhite": true
+      },
+      {
+        "number": 23.0,
+        "x": 0.063,
+        "y": 0.733,
+        "isWhite": false
+      },
+      {
+        "number": 24.0,
+        "x": 0.232,
+        "y": 0.551,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.156,
+        "y": 0.606,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.118990704,
+        "y": 0.20879668,
+        "isWhite": true
+      },
+      {
+        "number": 25.0,
+        "x": 0.075166,
+        "y": 0.16481328,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 48.025,
+    "comment": "2",
+    "height": 2560,
+    "key": "2024-10-07-170741",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-07-170723": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.509429,
+        "y": 0.50755185,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.5466136,
+        "y": 0.6851452,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.6754316,
+        "y": 0.7158506,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.29428953,
+        "y": 0.7772614,
+        "isWhite": true
+      },
+      {
+        "number": 3.0,
+        "x": 0.625,
+        "y": 0.758,
+        "isWhite": false
+      },
+      {
+        "number": 4.0,
+        "x": 0.45498008,
+        "y": 0.66356844,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.4443559,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.485,
+        "y": 0.432,
+        "isWhite": true
+      },
+      {
+        "number": 5.0,
+        "x": 0.36201862,
+        "y": 0.4021577,
+        "isWhite": false
+      },
+      {
+        "number": 6.0,
+        "x": 0.9224435,
+        "y": 0.44614106,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.622,
+        "y": 0.465,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.5426295,
+        "y": 0.28846473,
+        "isWhite": true
+      },
+      {
+        "number": 7.0,
+        "x": 0.6900398,
+        "y": 0.64946055,
+        "isWhite": false
+      },
+      {
+        "number": 8.0,
+        "x": 0.682,
+        "y": 0.334,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.78034526,
+        "y": 0.25775933,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.7697211,
+        "y": 0.5324481,
+        "isWhite": true
+      },
+      {
+        "number": 9.0,
+        "x": 0.7896414,
+        "y": 0.16647303,
+        "isWhite": false
+      },
+      {
+        "number": 10.0,
+        "x": 0.67277557,
+        "y": 0.83203316,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.793,
+        "y": 0.779,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.447,
+        "y": 0.8,
+        "isWhite": true
+      },
+      {
+        "number": 11.0,
+        "x": 0.533,
+        "y": 0.837,
+        "isWhite": false
+      },
+      {
+        "number": 12.0,
+        "x": 0.35139444,
+        "y": 0.8643983,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.21062417,
+        "y": 0.8502904,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.332,
+        "y": 0.507,
+        "isWhite": true
+      },
+      {
+        "number": 13.0,
+        "x": 0.4071713,
+        "y": 0.71668047,
+        "isWhite": false
+      },
+      {
+        "number": 14.0,
+        "x": 0.06985392,
+        "y": 0.5058921,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.216,
+        "y": 0.484,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.226,
+        "y": 0.295,
+        "isWhite": true
+      },
+      {
+        "number": 15.0,
+        "x": 0.06586985,
+        "y": 0.36481327,
+        "isWhite": false
+      },
+      {
+        "number": 16.0,
+        "x": 0.258,
+        "y": 0.161,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.335,
+        "y": 0.279,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.424,
+        "y": 0.221,
+        "isWhite": true
+      },
+      {
+        "number": 17.0,
+        "x": 0.388,
+        "y": 0.165,
+        "isWhite": false
+      },
+      {
+        "number": 18.0,
+        "x": 0.529,
+        "y": 0.162,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.66,
+        "y": 0.219,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.88791496,
+        "y": 0.2079668,
+        "isWhite": true
+      },
+      {
+        "number": 19.0,
+        "x": 0.67675966,
+        "y": 0.15817428,
+        "isWhite": false
+      },
+      {
+        "number": 20.0,
+        "x": 0.7139442,
+        "y": 0.44697094,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.848,
+        "y": 0.545,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.8640106,
+        "y": 0.8884647,
+        "isWhite": true
+      },
+      {
+        "number": 21.0,
+        "x": 0.947,
+        "y": 0.625,
+        "isWhite": false
+      },
+      {
+        "number": 22.0,
+        "x": 0.557,
+        "y": 0.947,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.127,
+        "y": 0.914,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.091,
+        "y": 0.639,
+        "isWhite": true
+      },
+      {
+        "number": 23.0,
+        "x": 0.063,
+        "y": 0.733,
+        "isWhite": false
+      },
+      {
+        "number": 24.0,
+        "x": 0.232,
+        "y": 0.551,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.156,
+        "y": 0.606,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.118990704,
+        "y": 0.20879668,
+        "isWhite": true
+      },
+      {
+        "number": 25.0,
+        "x": 0.075166,
+        "y": 0.16481328,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 48.025,
+    "comment": "1",
+    "height": 2560,
+    "key": "2024-10-07-170723",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-07-170852": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.70730406,
+        "y": 0.58639,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.4682603,
+        "y": 0.6884647,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.7710491,
+        "y": 0.74157673,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.7604249,
+        "y": 0.40713695,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.41381142,
+        "y": 0.42456433,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.59043825,
+        "y": 0.5017427,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.3938911,
+        "y": 0.58556014,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.23984064,
+        "y": 0.7224896,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.27835327,
+        "y": 0.8229045,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.3673307,
+        "y": 0.7125311,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.635591,
+        "y": 0.8502904,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.12164675,
+        "y": 0.8776763,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.22921647,
+        "y": 0.50008297,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.11367862,
+        "y": 0.6146058,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.08579017,
+        "y": 0.16564316,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.24249668,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.5426295,
+        "y": 0.15153527,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.49216467,
+        "y": 0.33493775,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.80424964,
+        "y": 0.23286307,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.63160694,
+        "y": 0.22207469,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.88791496,
+        "y": 0.15153527,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.8998672,
+        "y": 0.3988382,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.9144754,
+        "y": 0.8785062,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.84143424,
+        "y": 0.57145226,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.80557764,
+        "y": 0.8478008,
+        "isWhite": true
+      }
+    ],
+    "cirleRadius": 48.025,
+    "comment": "4",
+    "height": 2560,
+    "key": "2024-10-07-170852",
+    "type": "A",
+    "width": 1600
+  },
+  "2024-10-08-100101": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.523,
+        "y": 0.497,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.5466136,
+        "y": 0.6851452,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.6754316,
+        "y": 0.7158506,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.299,
+        "y": 0.79,
+        "isWhite": true
+      },
+      {
+        "number": 3.0,
+        "x": 0.625,
+        "y": 0.758,
+        "isWhite": false
+      },
+      {
+        "number": 4.0,
+        "x": 0.45498008,
+        "y": 0.66356844,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.4443559,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.454,
+        "y": 0.396,
+        "isWhite": true
+      },
+      {
+        "number": 5.0,
+        "x": 0.367,
+        "y": 0.392,
+        "isWhite": false
+      },
+      {
+        "number": 6.0,
+        "x": 0.963,
+        "y": 0.433,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.622,
+        "y": 0.465,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.5426295,
+        "y": 0.28846473,
+        "isWhite": true
+      },
+      {
+        "number": 7.0,
+        "x": 0.6900398,
+        "y": 0.64946055,
+        "isWhite": false
+      },
+      {
+        "number": 8.0,
+        "x": 0.659,
+        "y": 0.358,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.804,
+        "y": 0.232,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.797,
+        "y": 0.539,
+        "isWhite": true
+      },
+      {
+        "number": 9.0,
+        "x": 0.809,
+        "y": 0.13,
+        "isWhite": false
+      },
+      {
+        "number": 10.0,
+        "x": 0.689,
+        "y": 0.852,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.829,
+        "y": 0.844,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.453,
+        "y": 0.8,
+        "isWhite": true
+      },
+      {
+        "number": 11.0,
+        "x": 0.527,
+        "y": 0.841,
+        "isWhite": false
+      },
+      {
+        "number": 12.0,
+        "x": 0.372,
+        "y": 0.883,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.2,
+        "y": 0.866,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.352,
+        "y": 0.453,
+        "isWhite": true
+      },
+      {
+        "number": 13.0,
+        "x": 0.385,
+        "y": 0.704,
+        "isWhite": false
+      },
+      {
+        "number": 14.0,
+        "x": 0.049,
+        "y": 0.5,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.225,
+        "y": 0.627,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.159,
+        "y": 0.236,
+        "isWhite": true
+      },
+      {
+        "number": 15.0,
+        "x": 0.063,
+        "y": 0.353,
+        "isWhite": false
+      },
+      {
+        "number": 16.0,
+        "x": 0.25,
+        "y": 0.133,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.256,
+        "y": 0.532,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.309,
+        "y": 0.232,
+        "isWhite": true
+      },
+      {
+        "number": 17.0,
+        "x": 0.366,
+        "y": 0.171,
+        "isWhite": false
+      },
+      {
+        "number": 18.0,
+        "x": 0.583,
+        "y": 0.167,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.66,
+        "y": 0.219,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.915,
+        "y": 0.175,
+        "isWhite": true
+      },
+      {
+        "number": 19.0,
+        "x": 0.683,
+        "y": 0.123,
+        "isWhite": false
+      },
+      {
+        "number": 20.0,
+        "x": 0.746,
+        "y": 0.442,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.853,
+        "y": 0.716,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.906,
+        "y": 0.897,
+        "isWhite": true
+      },
+      {
+        "number": 21.0,
+        "x": 0.962,
+        "y": 0.669,
+        "isWhite": false
+      },
+      {
+        "number": 22.0,
+        "x": 0.521,
+        "y": 0.939,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.115,
+        "y": 0.905,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.107,
+        "y": 0.624,
+        "isWhite": true
+      },
+      {
+        "number": 23.0,
+        "x": 0.056,
+        "y": 0.665,
+        "isWhite": false
+      },
+      {
+        "number": 24.0,
+        "x": 0.203,
+        "y": 0.746,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.173,
+        "y": 0.814,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.104,
+        "y": 0.189,
+        "isWhite": true
+      },
+      {
+        "number": 25.0,
+        "x": 0.057,
+        "y": 0.141,
+        "isWhite": false
+      }
+    ],
+    "cirleRadius": 46.04359,
+    "comment": "type b",
+    "height": 2560,
+    "key": "2024-10-08-100101",
+    "type": "B",
+    "width": 1600
+  },
+  "2024-10-07-170900": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.70730406,
+        "y": 0.58639,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.4682603,
+        "y": 0.6884647,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.7710491,
+        "y": 0.74157673,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.7604249,
+        "y": 0.40713695,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.41381142,
+        "y": 0.42456433,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.59043825,
+        "y": 0.5017427,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.3938911,
+        "y": 0.58556014,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.23984064,
+        "y": 0.7224896,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.27835327,
+        "y": 0.8229045,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.3673307,
+        "y": 0.7125311,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.635591,
+        "y": 0.8502904,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.12164675,
+        "y": 0.8776763,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.22921647,
+        "y": 0.50008297,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.11367862,
+        "y": 0.6146058,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.08579017,
+        "y": 0.16564316,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.24249668,
+        "y": 0.30506223,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.5426295,
+        "y": 0.15153527,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.49216467,
+        "y": 0.33493775,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.80424964,
+        "y": 0.23286307,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.63160694,
+        "y": 0.22207469,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.88791496,
+        "y": 0.15153527,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.8998672,
+        "y": 0.3988382,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.9144754,
+        "y": 0.8785062,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.84143424,
+        "y": 0.57145226,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.80557764,
+        "y": 0.8478008,
+        "isWhite": true
+      }
+    ],
+    "cirleRadius": 48.025,
+    "comment": "5",
+    "height": 2560,
+    "key": "2024-10-07-170900",
+    "type": "A",
+    "width": 1600
+  },
+  "2024-10-14-130650": {
+    "circles": [
+      {
+        "number": 1.0,
+        "x": 0.714,
+        "y": 0.578,
+        "isWhite": true
+      },
+      {
+        "number": 2.0,
+        "x": 0.477,
+        "y": 0.68,
+        "isWhite": false
+      },
+      {
+        "number": 3.0,
+        "x": 0.777,
+        "y": 0.73,
+        "isWhite": true
+      },
+      {
+        "number": 4.0,
+        "x": 0.77,
+        "y": 0.399,
+        "isWhite": false
+      },
+      {
+        "number": 5.0,
+        "x": 0.425,
+        "y": 0.419,
+        "isWhite": true
+      },
+      {
+        "number": 6.0,
+        "x": 0.606,
+        "y": 0.493,
+        "isWhite": false
+      },
+      {
+        "number": 7.0,
+        "x": 0.403,
+        "y": 0.576,
+        "isWhite": true
+      },
+      {
+        "number": 8.0,
+        "x": 0.252,
+        "y": 0.713,
+        "isWhite": false
+      },
+      {
+        "number": 9.0,
+        "x": 0.292,
+        "y": 0.813,
+        "isWhite": true
+      },
+      {
+        "number": 10.0,
+        "x": 0.375,
+        "y": 0.703,
+        "isWhite": false
+      },
+      {
+        "number": 11.0,
+        "x": 0.648,
+        "y": 0.841,
+        "isWhite": true
+      },
+      {
+        "number": 12.0,
+        "x": 0.139,
+        "y": 0.867,
+        "isWhite": false
+      },
+      {
+        "number": 13.0,
+        "x": 0.245,
+        "y": 0.493,
+        "isWhite": true
+      },
+      {
+        "number": 14.0,
+        "x": 0.125,
+        "y": 0.602,
+        "isWhite": false
+      },
+      {
+        "number": 15.0,
+        "x": 0.101,
+        "y": 0.163,
+        "isWhite": true
+      },
+      {
+        "number": 16.0,
+        "x": 0.262,
+        "y": 0.301,
+        "isWhite": false
+      },
+      {
+        "number": 17.0,
+        "x": 0.549,
+        "y": 0.15,
+        "isWhite": true
+      },
+      {
+        "number": 18.0,
+        "x": 0.504,
+        "y": 0.329,
+        "isWhite": false
+      },
+      {
+        "number": 19.0,
+        "x": 0.811,
+        "y": 0.228,
+        "isWhite": true
+      },
+      {
+        "number": 20.0,
+        "x": 0.644,
+        "y": 0.218,
+        "isWhite": false
+      },
+      {
+        "number": 21.0,
+        "x": 0.891,
+        "y": 0.147,
+        "isWhite": true
+      },
+      {
+        "number": 22.0,
+        "x": 0.9,
+        "y": 0.393,
+        "isWhite": false
+      },
+      {
+        "number": 23.0,
+        "x": 0.921,
+        "y": 0.868,
+        "isWhite": true
+      },
+      {
+        "number": 24.0,
+        "x": 0.853,
+        "y": 0.562,
+        "isWhite": false
+      },
+      {
+        "number": 25.0,
+        "x": 0.811,
+        "y": 0.839,
+        "isWhite": true
+      }
+    ],
+    "cirleRadius": 48.000927,
+    "comment": "galaxy radius\u003d48 A Type",
+    "height": 2560,
+    "key": "2024-10-14-130650",
+    "type": "A",
+    "width": 1600
+  }
+}

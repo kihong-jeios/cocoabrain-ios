@@ -29,6 +29,23 @@ class LoginProvider: NSObject {
             }
         }
     }
+    
+    func refresh(refreshToken: String) -> Promise<AMO_Refresh> {
+        var params: Parameters = [:]
+        params["token"] = refreshToken
+        let worker = AdminWorker.init(type: .refresh(params: params))
+        return Promise { seal in
+            worker.request.validate().responseObject { (response: AFDataResponse<AMO_Refresh>) in
+                switch response.result {
+                case .success(let value):
+                    seal.fulfill(value)
+                    
+                case .failure(let error):
+                    seal.reject(error)
+                }
+            }
+        }
+    }
 
     func getCenterList() -> Promise<AMO_Center> {
         var params = Parameters()

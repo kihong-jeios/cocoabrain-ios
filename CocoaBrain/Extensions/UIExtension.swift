@@ -7,6 +7,18 @@
 
 import UIKit
 
+let k320: CGFloat = UIScreen.main.bounds.size.width
+let k480: CGFloat = UIScreen.main.bounds.size.height
+
+func image(from color: UIColor, size: CGSize = CGSize(width: 100, height: 100)) -> UIImage {
+    UIGraphicsBeginImageContextWithOptions(size, false, 0)
+    color.setFill()
+    UIRectFill(CGRect(origin: .zero, size: size))
+    let image = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+    return image ?? UIImage()
+}
+
 extension UIView {
     
     func addBorder(borderWidth: CGFloat, borderColor: UIColor) {
@@ -143,6 +155,21 @@ extension UIView {
         self.layer.addSublayer(border)
     }
 
+    func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(
+            roundedRect: bounds,
+            byRoundingCorners: corners,
+            cornerRadii: CGSize(width: radius, height: radius)
+        )
+        
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        layer.mask = mask
+    }
+    
+    func roundTopCorners(radius: CGFloat) {
+        roundCorners([.topLeft, .topRight], radius: radius)
+    }
 }
 
 

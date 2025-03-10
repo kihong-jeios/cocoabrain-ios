@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 
 enum EndpointURI: String {
-    case dev = "http://dev.cocoabrain.net/coghealthtest"
+    case dev = "http://121.169.251.9:2000/coghealthtest"
     case prod = "https://cocoabrain.net/coghealthtest"
 }
 
@@ -39,9 +39,9 @@ extension Endpoint {
     
     var headers: HTTPHeaders {
         var headers = HTTPHeaders()
-//        if let token = PrefsManager.SI.loginInfo()?.access_token {
-//            headers.add(name: "Authorization", value: "Bearer "+token)
-//        }
+        if let token = UDManager.SI.getAccessToken() {
+            headers.add(name: "Authorization", value: "Bearer "+token)
+        }
         headers.add(name: "Content-Type", value: "application/json")
         headers.add(name: "X-Platform", value: "iOS")
         headers.add(name: "version", value: PrefsManager.SI.getAppVersion())

@@ -81,11 +81,11 @@ extension UIFont {
     }
     
     static func textStyleGraphDate() -> UIFont {
-        return UIFont(name: "SpoqaHanSansNeo-Bold", size: 28)!
+        return UIFont(name: "SpoqaHanSansNeo-Regular", size: 12)!
     }
     
     static func textStyleGraphGrade() -> UIFont {
-        return UIFont(name: "SpoqaHanSansNeo-Bold", size: 28)!
+        return UIFont(name: "SpoqaHanSansNeo-Regular", size: 14)!
     }
     
     static func BrainPopupContentTitle() -> UIFont {
@@ -100,5 +100,7 @@ extension UIFont {
         return UIFont(name: "SpoqaHanSansNeo-Bold", size: 14)!
     }
     
-    
+    static func BrainTmtNumber() -> UIFont {
+        return UIFont(name: "SpoqaHanSansNeo-Bold", size: 30)!
+    }
 }

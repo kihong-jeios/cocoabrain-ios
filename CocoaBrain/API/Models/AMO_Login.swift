@@ -54,7 +54,7 @@ class AMO_LoginData: Mappable {
 }
 
 class AMO_Admin: Mappable {
-    var id: Double = 0
+    var id: Int = 0
     var name: String = ""
     var email: String = ""
     var enabled: Bool = true
@@ -62,7 +62,7 @@ class AMO_Admin: Mappable {
     var initPassword: Bool = false
     var contact: String = ""
     var createdAt: String?
-    var centerId: Double = 0
+    var centerId: Int = 0
     var centerName: String = ""
     var centerType: CenterType = .oc
     

@@ -18,8 +18,8 @@ class AdminWorker: NSObject {
             self.endpoint = AdminEndPoints.putAdminAccount(adminId: adminId, params: params)
         case .patchAdminAccount(adminId: let adminId, params: let params):
             self.endpoint = AdminEndPoints.patchAdminAccount(adminId: adminId, params: params)
-        case .getMyInformation(centerId: let centerId, params: let params):
-            self.endpoint = AdminEndPoints.getMyInformation(centerId: centerId, params: params)
+        case .getMyInformation(params: let params):
+            self.endpoint = AdminEndPoints.getMyInformation(params: params)
         case .postSpeechtext(params: let params):
             self.endpoint = AdminEndPoints.postSpeechtext(params: params)
         case .login(params: let params):

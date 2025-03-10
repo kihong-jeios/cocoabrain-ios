@@ -16,12 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        UDManager.SI.setFirstLaunch()
+        
+        if UDManager.SI.isFirstLaunch == true {
+            UDManager.SI.setIsEnabledAutoLogin(true)
+            UDManager.SI.setIsEnabledIdSave(false)
+        }
+        
+        let font = UIFont.textStyleHeading()
+        let attributes: [NSAttributedString.Key: Any] = [
+            .font: font,
+            .foregroundColor: UIColor.brainTertiary
+        ]
+        UINavigationBar.appearance().tintColor = .brainTertiary
+        UINavigationBar.appearance().backgroundColor = .brainBackground
+        UINavigationBar.appearance().titleTextAttributes = attributes
+        
         loginVC = LoginVC()
-        let loginNavi = UINavigationController(rootViewController: loginVC!)
-        loginNavi.modalPresentationStyle = .fullScreen
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.overrideUserInterfaceStyle = .light
-        self.window!.rootViewController = loginNavi
+        self.window!.rootViewController = loginVC!
         self.window!.makeKeyAndVisible()
         
         return true

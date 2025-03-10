@@ -14,12 +14,12 @@ class UserWorker: NSObject {
         switch type {
         case .getUser(userId: _, params: let params):
             self.endpoint = UserEndPoints.getUsers(params: params)
-        case .updateUser(userId: let userId, params: let params):
-            self.endpoint = UserEndPoints.updateUser(userId: userId, params: params)
+        case .editUser(userId: let userId, params: let params):
+            self.endpoint = UserEndPoints.editUser(userId: userId, params: params)
         case .getUsers(params: let params):
             self.endpoint = UserEndPoints.getUsers(params: params)
-        case .postUser(params: let params):
-            self.endpoint = UserEndPoints.postUser(params: params)
+        case .addUser(params: let params):
+            self.endpoint = UserEndPoints.addUser(params: params)
         case .patchUser(userId: let userId, params: let params):
             self.endpoint = UserEndPoints.patchUser(userId: userId, params: params)
         case .getMembers(params: let params):

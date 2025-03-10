@@ -10,9 +10,9 @@ import Alamofire
 
 enum UserEndPoints {
     case getUser(userId: String, params: Parameters)
-    case updateUser(userId: String, params: Parameters)
+    case editUser(userId: String, params: Parameters)
     case getUsers(params: Parameters)
-    case postUser(params: Parameters)
+    case addUser(params: Parameters)
     case patchUser(userId: String, params: Parameters)
     case getMembers(params: Parameters)
 }
@@ -23,11 +23,11 @@ extension UserEndPoints: Endpoint {
         switch self {
         case .getUser(userId: let userId, params: _):
             return "/api/v1/users/\(userId)"
-        case .updateUser(userId: let userId, params: _):
+        case .editUser(userId: let userId, params: _):
             return "/api/v1/users/\(userId)"
         case .getUsers(params: _):
             return "/api/v1/users"
-        case .postUser(params: _):
+        case .addUser(params: _):
             return "/api/v1/users"
         case .patchUser(userId: let userId, params: _):
             return "/api/v1/users/\(userId)/enable"
@@ -40,11 +40,11 @@ extension UserEndPoints: Endpoint {
         switch self {
         case .getUser(userId: _, params: _):
             return .get
-        case .updateUser(userId: _, params: _):
+        case .editUser(userId: _, params: _):
             return .put
         case .getUsers(params: _):
             return .get
-        case .postUser(params: _):
+        case .addUser(params: _):
             return .post
         case .patchUser(userId: _, params: _):
             return .patch
@@ -58,11 +58,11 @@ extension UserEndPoints: Endpoint {
         switch self {
         case .getUser(userId: _, params: let params):
             body = params
-        case .updateUser(userId: _, params: let params):
+        case .editUser(userId: _, params: let params):
             body = params
         case .getUsers(params: let params):
             body = params
-        case .postUser(params: let params):
+        case .addUser(params: let params):
             body = params
         case .patchUser(userId: _, params: let params):
             body = params
